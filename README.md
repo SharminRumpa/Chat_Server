@@ -3,6 +3,7 @@
 ### Note _( Instruction to run the apps)_
    * Open in cmd
    * Type (node app.js) on cmd & Enter button
+   * Go any browser
    * Visite this url => http://localhost:8080/
 
 ### Project Information: 
@@ -10,7 +11,9 @@
    * __Project Number :__ 07
    * __Project Name :__ My Chat Server
    * __Project Description :__  
-        * Chatting apps 
+        * Chatting apps
+        * Upload Image & file
+        * Download file
 
 
 ### Tools and Technologies: 
