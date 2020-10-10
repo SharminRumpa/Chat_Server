@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> My Chat Server </title>
+
+    <link href="Default.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script src="Scripts/socket.io.js"></script>
+    <script src="Default.js"></script>
+
+    <h1> My_Chat_Server </h1>
+
+</head>
+
+<body>
+
+    <div class=" users">
+
+        <h1> User Name </h1> <br />
+        <b> Search : </b> <input type='text' id='userquery' /> <br /> <br />
+        <div id="userid"> </div>
+
+    </div>
+
+
+    <div class="chatbox"> <h1> Chat Box </h1></div>
+
+
+    <div class="conversationbox ">
+
+        <div id="conversation"></div>
+
+    </div>
+
+
+    <div class=" senddata">
+
+        <input type="file" id="uploadfile" /> <br /> <br />
+
+        <input id="data" placeholder="Type your message here" />
+        <input type="button" id="datasend" value="Send" />
+
+    </div>
+
+
+
+</body>
+</html>

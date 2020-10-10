@@ -1,0 +1,15 @@
+{
+  "name": "my_chat_server",
+  "version": "1.0.0",
+  "description": "A simple char server",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sharmin Akter",
+  "license": "ISC",
+  "dependencies": {
+    "express": "3.0.6",
+    "socket.io": "0.9.19"
+  }
+}
